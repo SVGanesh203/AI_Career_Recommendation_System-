@@ -1,0 +1,77 @@
+{
+  "dataset_path": "C:\\Users\\Dell\\OneDrive\\Desktop\\New folder\\AI_Career_Recommendation_System\\data\\dataset.csv",
+  "n_samples": 200,
+  "n_train": 160,
+  "n_test": 40,
+  "xgboost_available": true,
+  "classification": [
+    {
+      "Model": "Neural Network (MLP)",
+      "Accuracy (%)": 22.5,
+      "Train time (s)": 1.0764,
+      "Inference time (s)": 0.002818
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy (%)": 20.0,
+      "Train time (s)": 0.3268,
+      "Inference time (s)": 0.010675
+    },
+    {
+      "Model": "Random Forest (current)",
+      "Accuracy (%)": 12.5,
+      "Train time (s)": 0.4196,
+      "Inference time (s)": 0.017714
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy (%)": 12.5,
+      "Train time (s)": 0.566,
+      "Inference time (s)": 0.006693
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy (%)": 10.0,
+      "Train time (s)": 0.1337,
+      "Inference time (s)": 0.003549
+    }
+  ],
+  "regression": [
+    {
+      "Model": "Ensemble stacking (RF + GB + Ridge)",
+      "RMSE (LPA)": 3.651,
+      "Train time (s)": 2.0091,
+      "Inference time (s)": 0.024963
+    },
+    {
+      "Model": "Quantile Regression (median)",
+      "RMSE (LPA)": 3.68,
+      "Train time (s)": 0.0544,
+      "Inference time (s)": 0.006335
+    },
+    {
+      "Model": "Random Forest (current)",
+      "RMSE (LPA)": 3.787,
+      "Train time (s)": 0.3523,
+      "Inference time (s)": 0.013345
+    },
+    {
+      "Model": "Gradient Boosting",
+      "RMSE (LPA)": 3.964,
+      "Train time (s)": 0.0877,
+      "Inference time (s)": 0.002335
+    },
+    {
+      "Model": "XGBoost",
+      "RMSE (LPA)": 4.317,
+      "Train time (s)": 0.1201,
+      "Inference time (s)": 0.005102
+    },
+    {
+      "Model": "Neural Network (MLP)",
+      "RMSE (LPA)": 5.448,
+      "Train time (s)": 0.8412,
+      "Inference time (s)": 0.002255
+    }
+  ]
+}

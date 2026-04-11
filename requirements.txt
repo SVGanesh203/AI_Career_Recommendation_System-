@@ -6,3 +6,5 @@ joblib
 spacy
 pdfplumber
 python-docx
+plotly
+xgboost

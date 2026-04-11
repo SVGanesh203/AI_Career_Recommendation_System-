@@ -70,9 +70,10 @@ def skill_gap_advice(predicted_role, user_skills):
 
     if predicted_role not in ROLE_SKILL_MAP:
         return {
+            "role": predicted_role,
             "message": "No skill map available for this role yet.",
-            "missing_skills": [],
-            "recommended_skills": [],
+            "missing_required_skills": [],
+            "missing_recommended_skills": [],
             "recommended_projects": [],
             "certifications": []
         }
